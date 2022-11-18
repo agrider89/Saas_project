@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:768px) {
     /*Header*/
     [aria-controls="navbar-Dropdown"] {
         display:block;
@@ -90,7 +90,7 @@
     }
 
     .key-card   {
-        width: 339px;
+        width: 310px;
         height: 262px;
 
     }
@@ -231,14 +231,15 @@
     }
     .hire-right {
         justify-content: center;
-        margin: 0 auto;
-        width: 708px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 675px;
     }
     .input {
-        width: 315px;
+        width: 300px;
     }
     .text-area {
-        width: 678px;
+        width: 650px;
     }
     .check-area {
         width: 600px;
@@ -250,10 +251,15 @@
         grid-template-rows: 1fr 1fr;
         gap: 40px;
     }
+    .sub-footer p {
+        width: 650px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:500px) {
    /*Header*/
     [aria-expanded="true"] ~ .navbar {
         height:40vh;
@@ -408,6 +414,7 @@
     .hire-right {
         width: 320px;
         
+        
     }
 
     .form-grid  {
@@ -457,7 +464,7 @@
        
     }
 
-    @media screen and (max-width:380px) {
+    @media screen and (max-width:390px) {
         .sub-right {
            width: 350px;
         }
@@ -494,7 +501,7 @@
         }
     
         .hire-right {
-            width: 250px;
+            width: 280px;
             
         }
     

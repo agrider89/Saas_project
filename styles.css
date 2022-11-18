@@ -6,6 +6,9 @@ header {
     align-items: center;
     padding-top: 15px;
     z-index: 999;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -111,9 +114,12 @@ nav li, a {
 .sub-header {
     position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     margin-top: 115px;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
 }
 
 .sub-left {
@@ -199,6 +205,9 @@ nav li, a {
     justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(218px,1fr));
     gap: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     
     margin-top: 70px;
 }
@@ -241,6 +250,9 @@ nav li, a {
     flex-direction: row;
     justify-content: center;
     gap: 40px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -272,6 +284,11 @@ nav li, a {
     margin-bottom: 10px;
     font-size: 26px;
     font-weight: 700;
+}
+.why-text p {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .circle-container {
@@ -346,13 +363,14 @@ nav li, a {
     height: 414px;
     background-repeat: no-repeat;
     width: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 106px;
     display:grid;
     place-items: center;
     font-size: 25px;
     color: #000000;
+    max-width: 1200px;
 }
   
 
@@ -407,7 +425,7 @@ nav li, a {
 }
 /*Trusted Brand*/
 .trusted {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .trusted h3 {
